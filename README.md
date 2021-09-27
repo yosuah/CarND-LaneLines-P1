@@ -3,8 +3,7 @@
 
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
-Overview - original task description
----
+# Overview - original task description
 
 When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
 
@@ -15,8 +14,8 @@ To complete the project, two files will be submitted: a file containing project 
 To meet specifications in the project, take a look at the requirements in the [project rubric](https://review.udacity.com/#!/rubrics/322/view)
 
 
-Result
----
+# Result
+
 I created a traditional CV-based solution that works reasonably well on the test videos, 
 but obviously could not scale to more complex scenarios. 
 
@@ -25,5 +24,11 @@ but obviously could not scale to more complex scenarios.
 - Open [P1.html](P1.html#Actual-implementation---test-single-images) if you can not render
 the notebook.
 
-Sample video (the right separator is a bit hard to see, sorry about that):
-![Udacity - Self-Driving Car NanoDegree](test_videos_output/solidWhiteRight.gif)
+## Sample video 
+
+the right separator is a bit hard to see, sorry about that
+![Sample output video](test_videos_output/solidWhiteRight.gif)
+
+## Main steps of the pipeline
+
+![Main steps of the pipeline](steps_plot.png)
